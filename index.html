@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Work+Sans" rel="stylesheet">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Address Book</title>
+  </head>
+  <body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+
+        <div class="container">
+          <h1>Add Contact</h1>
+          <div class="card" id="entry">
+            <form id="entryForm">
+
+              <div class="form-group row">
+                <label for="name" class="col-2 col-form-label">Name</label>
+                <div class="col-10">
+                  <input id="name" class="form-control" type="text">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="address" class="col-2 col-form-label">Address</label>
+                <div class="col-10">
+                  <input id="address" class="form-control" type="text">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="email" class="col-2 col-form-label">Email</label>
+                <div class="col-10">
+                  <input id="email" class="form-control" type="text">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="phone" class="col-2 col-form-label">Phone</label>
+                <div class="col-10">
+                  <input id="phone" class="form-control" type="text">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-2">
+                </div>
+                <div class="col-10" id="submitButton">
+                  <button type="submit" class="btn btn-dark">Add</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-6">
+        <h1>Your Contacts</h1>
+        <div id="contactsList">
+
+          <div class="output card" id="contactOutput">
+            <h2><span class="name"></span></h2>
+            <div class="contactInfo">
+              <p><span class="email"></span></p>
+              <p><span class="address"></span></p>
+              <p><span class="phone"></span></p>
+            </div>
+          </div>
+
+
+          </div>
+
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  </body>
+</html>
